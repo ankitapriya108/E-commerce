@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.product{
+    height:400px;
+    width: 22%;
+    border: 2px solid black;
+}
+.product img{
+    height:70%;
+    width: 100%;
+}
+.box{
+    display: flex;
+    width: 100%;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
